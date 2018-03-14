@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background: rgba(225, 220, 229, .3);
+}
+
+header {
+  background: rgba(65, 4, 109, .7);
+  color: white;
+  padding: 15px 15px 0px 15px;
+}
+
+header h1 {
+  magin: 0;
+  display: inline;
+  font-family: fantasy;
+}
+
+header a {
+  font-family: fantasy;
+  color: white;
+}
+
+header a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 0 0 15px;
+  display: inline;
+}
+
+nav ul li {
+  background: rgba(65, 4, 109, .8);
+  color: black;
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 15px;
+  margin: 0;
+
+}
+
+nav ul li a {
+  color: white;
+}
+
+.row:after {
+  clear: both;
+  content:" ";
+  display: table;
+}
+
+.col {
+  background: #333;
+  border-radius: 5px;
+  color: white;
+  padding: 10px .5%;
+  float: left;
+  margin: .5%;
+  width: 31%;
+}
+
+.myPanel {
+  border: 1px solid #4b0082;
+  border-radius: 5px 5px 5px 5px;
+  box-shadow: 1px 1px 4px #999;
+  margin: 3%;
+}
+
+.myPanel .heading{
+  background: rgba(123, 51, 175, .7);
+  font-weight: 700;
+  border-radius: 5px 5px 0 0;
+  color: #4b0082;
+  padding: 10px 20px;
+}
+
+.myPanel .body {
+  padding: 10px 20px;
+}
+
+.myPanel .showOnHover {
+  display: inline-block;
+}
+
+.myPanel:hover {
+  box-shadow: 0px 0px 8px gold;
+}
+
+.myPanel:hover .showOnHover {
+  display: inline-block;
+}
+
+.myPanel .img {
+  float: left;
+}
+
+li input {
+    display: none;
+}
+
+li.edit span {
+    display: none;
+}
+
+li.edit input {
+    display: initial;
+}
